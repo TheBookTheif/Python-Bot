@@ -94,5 +94,5 @@ async def choose_random_5(ctx):
         await ctx.send(f'{result}')
         #del people[key]
 
-bot.run('NjkyNDU4NzEwNjM0ODU2NTQ4.Xn0YkQ.kQtCDYMxAAXIpi-scTpacnbZySo')
+bot.run('Njk0ODg2OTUyNjA4MDcxNjkw.XoSYIQ.J8v-XFqI4x3qw7d67trYCZD5XBY')
 
