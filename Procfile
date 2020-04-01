@@ -1,1 +1,1 @@
-worker: python aleksthebot.py
+worker: python the-second-of-bots.py
