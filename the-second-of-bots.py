@@ -2,8 +2,6 @@ import random
 import discord
 from discord.ext import commands
 
-TOKEN1 = 'Njk0ODg2OTUyNjA4MDcxNjkw.XoScrQ.'
-TOKEN2 = '0cIFL3T9xZe_ZoET_V26AU-qXHA'
 class MyClient(commands.Bot):
     async def on_ready(self):
         print('Logged in as')
@@ -96,5 +94,5 @@ async def choose_random_5(ctx):
         await ctx.send(f'{result}')
         #del people[key]
 
-bot.run(TOKEN1+TOKEN2)
+bot.run(TOKEN)
 
