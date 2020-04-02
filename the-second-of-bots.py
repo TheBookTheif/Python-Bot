@@ -2,6 +2,8 @@ import random
 import discord
 from discord.ext import commands
 
+TOKEN = ENV['TOKEN']
+
 class MyClient(commands.Bot):
     async def on_ready(self):
         print('Logged in as')
