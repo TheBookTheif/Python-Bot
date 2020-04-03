@@ -2,8 +2,8 @@ import random
 import discord
 from discord.ext import commands
 
-TOKEN1 = Njk0ODg2OTUyNjA4MDcxNjkw.
-TOKEN2 = XoeZnQ.xXK5IXxxsKLBpdRxBo6Hjt8HycQ
+TOKEN1 = 'Njk0ODg2OTUyNjA4MDcxNjkw.'
+TOKEN2 = 'XoeZnQ.xXK5IXxxsKLBpdRxBo6Hjt8HycQ'
 
 class MyClient(commands.Bot):
     async def on_ready(self):
